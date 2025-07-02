@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #121212;
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 30px;
+}
+
+#search {
+  padding: 10px;
+  width: 80%;
+  max-width: 400px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+}
+
+.crypto {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1e1e1e;
+  margin: 10px auto;
+  padding: 15px;
+  border-radius: 10px;
+  max-width: 600px;
+}
+
+.crypto img {
+  width: 30px;
+  height: 30px;
+}
+
+.crypto h2, .crypto p {
+  margin: 0;
+}
